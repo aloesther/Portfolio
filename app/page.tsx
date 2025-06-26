@@ -1,7 +1,14 @@
 "use client"
 
-import { ThemeProvider } from "../portfolio-website[1]/components/theme-provider"
+import { Button } from "@/components/ui/button"
 
-export default function SyntheticV0PageForDeployment() {
-  return <ThemeProvider />
+function Page() {
+  return (
+    <main className="container mx-auto py-10">
+      <h1 className="mb-6 text-3xl font-bold">Portfolio Website</h1>
+      <Button>It works!</Button>
+    </main>
+  )
 }
+
+export default Page
